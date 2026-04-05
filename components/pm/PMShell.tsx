@@ -67,13 +67,7 @@ export default function PMShell({ children }: PMShellProps) {
                 <p className="text-lg font-semibold text-slate-100">PM Admin</p>
                 <p className="text-sm text-slate-400">admin1@gmail.com</p>
               </div>
-              <div className="flex items-center gap-2">
-                <Button
-                  variant="outline"
-                  className="h-8 rounded-md border-slate-600 bg-slate-800 text-xs text-slate-100 hover:bg-slate-700"
-                >
-                  Profile
-                </Button>
+              <div className="flex items-center">
                 <Button
                   variant="outline"
                   className="h-8 rounded-md border-slate-600 bg-slate-800 text-xs text-slate-100 hover:bg-slate-700"
