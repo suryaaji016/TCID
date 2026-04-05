@@ -85,9 +85,6 @@ export default function PMShell({ children }: PMShellProps) {
             <h1 className="text-4xl font-semibold leading-tight text-slate-100">
               Project Manager Console
             </h1>
-            <p className="text-base text-slate-400">
-              Semi otomatis schedule, seat mapping, dan manajemen akun agent.
-            </p>
           </div>
 
           {children}

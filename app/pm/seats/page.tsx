@@ -44,7 +44,7 @@ export default function PMSeatsPage() {
 
   return (
     <div className="space-y-3 text-slate-100">
-      <div className="grid grid-cols-3 gap-2">
+      <div className="grid grid-cols-2 gap-2">
         <div className="rounded-md border border-slate-700 bg-slate-800/80 p-3">
           <div className="text-sm text-slate-400">Seat Available</div>
           <div className="text-4xl font-bold text-[#059669]">
@@ -54,10 +54,6 @@ export default function PMSeatsPage() {
         <div className="rounded-md border border-slate-700 bg-slate-800/80 p-3">
           <div className="text-sm text-slate-400">Seat Booked</div>
           <div className="text-4xl font-bold text-[#dc2626]">{bookedCount}</div>
-        </div>
-        <div className="rounded-md border border-slate-700 bg-slate-800/80 p-3">
-          <div className="text-sm text-slate-400">Seat Terseleksi</div>
-          <div className="text-4xl font-bold text-slate-100">Belum dipilih</div>
         </div>
       </div>
 
